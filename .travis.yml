@@ -8,3 +8,9 @@ node_js:
   - "5.1"
   - "4"
  # - "0.12"
+notifications:
+  email:
+    recipients:
+      - aldo.moreno@softtek.com
+    on_success: always # default: change
+    on_failure: always # default: always
